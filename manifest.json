@@ -1,0 +1,7 @@
+{
+  "name": "votaciones-ud",
+  "short_name": "votaciones-ud",
+  "description": "app para votar en las asambleas",
+  "start_url": "/",
+  "display": "standalone"
+}
