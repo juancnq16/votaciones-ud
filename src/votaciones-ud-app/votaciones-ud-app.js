@@ -13,13 +13,14 @@ class VotacionesUdApp extends PolymerElement {
         }
       </style>
       <h2>Hello [[prop1]]!</h2>
+      <urna-ud></urna-ud><urna-ud></urna-ud><urna-ud></urna-ud>
     `;
   }
   static get properties() {
     return {
       prop1: {
-        type: String,
-        value: 'votaciones-ud-app'
+        type: Number,
+        value: 15
       }
     };
   }

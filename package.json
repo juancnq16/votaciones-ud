@@ -2,7 +2,8 @@
   "name": "votaciones-ud",
   "description": "app para votar en las asambleas",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.0.0",
+    "lit-element": "^2.2.1"
   },
   "devDependencies": {
     "@polymer/test-fixture": "^4.0.2",

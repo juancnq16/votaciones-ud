@@ -1,0 +1,44 @@
+
+.wave-fill {
+    display: inline-block;
+    height: 30vw;
+    width: 29vw;
+    background: #ccc ;
+    -webkit-mask-image: url("logoUD.png");
+    -webkit-mask-size: contain;
+}
+span {
+    display: block;
+    width: 100%;
+}
+
+.wave {
+    background: url("olaNaranja.png");
+    height: 16px;
+    background-size: contain;
+    animation: wave 10s linear infinite;
+}
+.deep-water {
+    background:rgb(255, 91, 0);
+    height: 35vw;
+}
+
+@keyframes wave {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: 1000px 0px;
+    }
+}
+.water {
+    animation: water 10s ease infinite;
+}
+@keyframes water {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(40%);
+    }
+}
