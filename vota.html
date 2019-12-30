@@ -13,8 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
     <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <script type="module" src="/src/votaciones-ud-app/votaciones-ud-app.js" crossorigin></script>
-    <script type="module" src="/src/votaciones-ud-app/urna.js" crossorigin></script>
+    <script type="module" src="/src/votaciones-ud-app/vota.js" crossorigin></script>
   </head>
   <body>
       <nav role='navigation' id="mainnav">
@@ -25,19 +24,12 @@
           <li><a href="#?">Pregunta</a></li>
           <li><a href="#?">Consulta</a></li>
           <li><a href="#?">Denuncia</a></li>
-       
         </ul>
       </nav>  
-      
       <div class="hamb">
         <a href="#"><i class="fa fa-bars"></i></a>
       </div>
-      <div>
-          <h1>Votaciones</h1>
-          <urna-ud estilo="styles/azul1.css"></urna-ud>
-          <urna-ud estilo="styles/naranja2.css"></urna-ud>
-          <urna-ud estilo="styles/verde3.css"></urna-ud>
-      </div>
+      <vota-ud></vota-ud>
       <canvas id="bubble"></canvas>
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js"></script>

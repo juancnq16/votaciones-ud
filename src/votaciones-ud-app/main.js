@@ -1,10 +1,3 @@
-window.addEventListener('load', ()=>{
-    
-});
-window.onload = function(){
-
-}
-
 $(document)
   .on('click', '.fa-bars', function(){
     var i = 0;

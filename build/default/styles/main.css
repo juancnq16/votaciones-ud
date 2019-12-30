@@ -1,9 +1,14 @@
-div { 
-    text-align: center;
+div.inline { 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20vh;
+    float:inline-start;
 }
 .clearBoth { clear:both; }
 body{
-    background-color: black;
+    background: url("wallpaper-engine.jpg");
+    padding: 0;
+    margin: 0;
 }
 html {
 font-family: 'Roboto Condensed', sans-serif;
@@ -47,13 +52,20 @@ text-decoration: none;
 }
 html, body, .hero {
     height: 100%;
-    font-family: 'Raleway', sans-serif;
 }
 h1 {
-    font-size: 5vw;
+    font-size: 10vw;
+    padding: 50px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 #bubble {
     width: 100%;

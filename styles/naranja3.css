@@ -1,9 +1,9 @@
 
 .wave-fill {
     display: inline-block;
-    height: 300px;
-    width: 295px;
-    background: #ccc ;
+    height: 350px;
+    width: 350px;
+    background: rgb(253, 253, 253) ;
     -webkit-mask-image: url("logoUD.png");
     -webkit-mask-size: contain;
 }
@@ -39,6 +39,6 @@ span {
         transform: translateY(100%);
     }
     to {
-        transform: translateY(60%);
+        transform: translateY(70%);
     }
 }

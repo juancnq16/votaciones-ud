@@ -1,9 +1,9 @@
 
 .wave-fill {
     display: inline-block;
-    height: 30vw;
-    width: 29vw;
-    background: #ccc ;
+    height: 350px;
+    width: 350px;
+    background: rgb(253, 253, 253) ;
     -webkit-mask-image: url("logoUD.png");
     -webkit-mask-size: contain;
 }
@@ -14,13 +14,13 @@ span {
 
 .wave {
     background: url("olaNaranja.png");
-    height: 16px;
+    height: 22px;
     background-size: contain;
     animation: wave 10s linear infinite;
 }
 .deep-water {
     background:rgb(255, 91, 0);
-    height: 35vw;
+    height: 350px;
 }
 
 @keyframes wave {
@@ -39,6 +39,6 @@ span {
         transform: translateY(100%);
     }
     to {
-        transform: translateY(40%);
+        transform: translateY(50%);
     }
 }
