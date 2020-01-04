@@ -43,5 +43,4 @@ $(document)
         .end()
         .fadeIn();
     });
-  }) 
-   
+  })
